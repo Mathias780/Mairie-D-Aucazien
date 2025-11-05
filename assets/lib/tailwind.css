@@ -1,0 +1,11 @@
+@import "tailwindcss";
+
+@font-face {
+    font-family: "Figtree";
+    src: url(../fonts/Figtree/Figtree-VariableFont_wght.ttf);
+}
+
+@theme {
+    --font-Figtree: "figtree", medium;
+    --color-blue-primary: #0B3954;
+}
