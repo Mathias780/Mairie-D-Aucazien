@@ -24,6 +24,8 @@
     --text-4xl--line-height: calc(2.5 / 2.25);
     --text-5xl: 3rem;
     --text-5xl--line-height: 1;
+    --text-6xl: 3.75rem;
+    --text-6xl--line-height: 1;
     --radius-xs: 0.125rem;
     --radius-lg: 0.5rem;
     --radius-2xl: 1rem;
@@ -238,6 +240,9 @@
   .h-full {
     height: 100%;
   }
+  .h-screen {
+    height: 100vh;
+  }
   .w-100 {
     width: calc(var(--spacing) * 100);
   }
@@ -332,6 +337,12 @@
   .bg-white {
     background-color: var(--color-white);
   }
+  .bg-cover {
+    background-size: cover;
+  }
+  .bg-center {
+    background-position: center;
+  }
   .object-cover {
     object-fit: cover;
   }
@@ -343,6 +354,15 @@
   }
   .p-20 {
     padding: calc(var(--spacing) * 20);
+  }
+  .p-30 {
+    padding: calc(var(--spacing) * 30);
+  }
+  .p-50 {
+    padding: calc(var(--spacing) * 50);
+  }
+  .p-55 {
+    padding: calc(var(--spacing) * 55);
   }
   .px-3 {
     padding-inline: calc(var(--spacing) * 3);
@@ -406,6 +426,10 @@
   .text-5xl {
     font-size: var(--text-5xl);
     line-height: var(--tw-leading, var(--text-5xl--line-height));
+  }
+  .text-6xl {
+    font-size: var(--text-6xl);
+    line-height: var(--tw-leading, var(--text-6xl--line-height));
   }
   .text-base {
     font-size: var(--text-base);
